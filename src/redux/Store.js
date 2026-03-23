@@ -7,7 +7,7 @@ import { configureStore } from "@reduxjs/toolkit";
 export const store = configureStore({
 
     reducer: {
-        // diff slice present here 
+        // diff slice present here  (key:value) pairs
         CounterApp: CounterSlice
     },
 });
